@@ -132,3 +132,12 @@ mark {
 div #date {
     font-size: 15px;
 }
+
+#indexstyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 15%;
+}
