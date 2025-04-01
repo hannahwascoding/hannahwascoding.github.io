@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <link href="main.css" type="text/css" rel="stylesheet"/>
+        <title>Hannah Svraka's Career Goals</title>
+    </head>
+    <body>
+        <nav>
+            <a href="Resume.html">Resume</a> | 
+            <a href="CoverLetter.html">Cover Letter</a> | 
+            <a href="CareerGoals.html">Career Goals</a>
+        </nav>
+        <div class="bg-image"></div>
+        <main>
+            <section>
+                <article>
+                    <header>
+                        <h1>Example Career Goals</h1>
+                    </header>
+                        <p>This page discusses my short, long, and overall career goals.</p><hr>
+                        <p>This song inspires me, listen along as you read this page:</p>
+                        <audio controls loop>
+                            <source src="Charlies Here.flac">
+                          Your browser does not support the audio element.
+                        </audio>
+                        <p style="font-size:small;"><a href="https://docs.google.com/spreadsheets/d/1SNvSCzJ57EcQBxNH5v67dY-IHdc2Tml4MpgAeCCGzeU/edit?gid=286588089#gid=286588089" style="color:white;"><em>Charlie's Here - Club Penguin OST. Credit.</em></a></p>  
+                          <hr>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <header>
+                        <h1>Short Term Career Goals</h1>
+                        <ul>
+                            <li>Land a position in an industry that piques my interest, such as aerospace or automotive.</li>
+                            <li>Challenging myself by applying school skills to my interviews and jobs.</li>
+                        </ul>
+                    </header>
+                </article><br>
+                <article>
+                    <header>
+                        <h1>Long Term Career Goals</h1>
+                    </header>
+                        <ul>
+                            <li>Develop school and work knowledge in different areas outside of aerospace or automotive.</li>
+                            <li>Research and study ways to become more technologically advanced.</li>
+                            <li>Be the <strong>point of contact</strong> for front-end developer UI/UX elements.</li>
+                            <li>Create a game like Club Penguin's Pizzatron 3000 game.</li>
+                        </ul>
+                        <p><em>Watch a clip of the Pizzatron 3000 game:</em></p>
+                        <div style="display: flex; justify-content: center;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bfvy7iIVOEk?si=px5D32J-DkmmnKzN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                </article><br>
+                <article>
+                    <header>
+                        <h1>Summary Career Goals</h1>
+                    </header>
+                        <p>Both short and long-term goals will help me grow my understanding and skill set in areas that fascinate me.
+                        By acquiring this degree and using my career goals as a guide, this will help alleviate my concerns about 
+                        job security by having the knowledge and experience gained through WGU's unique blend of challenge and self-discipline
+                        while navigating my degree program.
+                        </p>
+                </article><br>
+                <article>
+                    <p><strong>Want to keep in touch? Contact me by filling the form below.</strong></p>
+                </article>
+            </section>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <fieldset>
+                    <legend>Contact Information</legend>
+            
+                    <label for="first">First Name:</label>
+                    <input type="text" id="first" name="first" required><br>
+            
+                    <label for="last">Last Name:</label>
+                    <input type="text" id="last" name="last" required><br>
+            
+                    <label for="companyname">Company Name:</label>
+                    <input type="text" id="companyname" name="companyname"><br>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+            
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone"><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Write here..."></textarea><br>
+
+                    <label for="contactmethod">Best way to reach you:</label>
+                        <select name="contactmethod">
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                            <option value="text">Text Message</option>
+                        </select><br>
+
+                    <label for="contacttime">Best contact time:</label>
+                        <input type="radio" name="contacttime" value="Morning" id="morning">
+                        <label for="morning">Morning</label>
+
+                        <input type="radio" name="contacttime" value="Afternoon" id="afternoon">
+                        <label for="afternoon">Afternoon</label>
+
+                        <input type="radio" name="contacttime" value="Evening" id="evening">
+                        <label for="evening">Evening</label><br><br>
+
+                    <button type="submit" style="width:150px;height:50px;">Submit</button>
+                </fieldset>
+                
+                <br>
+            </form>
+            <section>
+                <p><mark>Obligatory cat pic:</mark></p>
+                <img src="tabbycatimg.jpg" alt="tabby cat" width="547" height="365">
+            </section>
+         </main><hr>
+        <footer>
+            <div id="date"></div>
+            <script>
+                const today = new Date().toLocaleDateString("en-US");
+                document.getElementById("date").innerText = "Today's date: " + today;
+                console.log("Today's date is " + today);
+            </script>
+            <p>&copy; 2025 | 
+            <a href="https://www.pexels.com/@instawally/" style="color:white; text-decoration:none">Background Credit @instawally</a><br><br>
+            <a href="mailto:hsvrak1@wgu.edu">
+                <button type="button">Contact Me</button>
+            </a>
+            </p>
+        </footer>
+    </body>
+</html>
